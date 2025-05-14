@@ -26,5 +26,10 @@ namespace WindowsFormsApp1
         {
             label1.Text = "Hello world";
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.Black;
+        }
     }
 }
