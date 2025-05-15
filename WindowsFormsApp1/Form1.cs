@@ -46,5 +46,10 @@ namespace WindowsFormsApp1
         {
             xuiCard1.BackColor = Color.Black;
         }
+
+        private void xuiRadio1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
