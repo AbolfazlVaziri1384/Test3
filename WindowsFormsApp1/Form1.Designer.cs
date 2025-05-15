@@ -34,6 +34,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.xuiButton1 = new XanderUI.XUIButton();
             this.xuiCard1 = new XanderUI.XUICard();
+            this.xuiRadio1 = new XanderUI.XUIRadio();
             this.SuspendLayout();
             // 
             // label1
@@ -103,11 +104,26 @@
             this.xuiCard1.Text3 = "Exp: 01/02 - 03/04";
             this.xuiCard1.Click += new System.EventHandler(this.xuiCard1_Click);
             // 
+            // xuiRadio1
+            // 
+            this.xuiRadio1.Checked = false;
+            this.xuiRadio1.ForeColor = System.Drawing.Color.White;
+            this.xuiRadio1.Location = new System.Drawing.Point(336, 44);
+            this.xuiRadio1.Name = "xuiRadio1";
+            this.xuiRadio1.RadioColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(162)))), ((int)(((byte)(250)))));
+            this.xuiRadio1.RadioHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(55)))), ((int)(((byte)(98)))));
+            this.xuiRadio1.RadioStyle = XanderUI.XUIRadio.Style.Material;
+            this.xuiRadio1.Size = new System.Drawing.Size(100, 16);
+            this.xuiRadio1.TabIndex = 5;
+            this.xuiRadio1.Text = "xuiRadio1";
+            this.xuiRadio1.Click += new System.EventHandler(this.xuiRadio1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.xuiRadio1);
             this.Controls.Add(this.xuiCard1);
             this.Controls.Add(this.xuiButton1);
             this.Controls.Add(this.button2);
@@ -128,6 +144,7 @@
         private System.Windows.Forms.Button button2;
         private XanderUI.XUIButton xuiButton1;
         private XanderUI.XUICard xuiCard1;
+        private XanderUI.XUIRadio xuiRadio1;
     }
 }
 
