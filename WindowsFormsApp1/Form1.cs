@@ -36,5 +36,10 @@ namespace WindowsFormsApp1
         {
             button1.BackColor = Color.Blue;
         }
+
+        private void xuiButton1_Click(object sender, EventArgs e)
+        {
+            xuiButton1.BackgroundColor = Color.Black;
+        }
     }
 }
