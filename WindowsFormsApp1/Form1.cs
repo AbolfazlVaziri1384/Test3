@@ -41,5 +41,10 @@ namespace WindowsFormsApp1
         {
             xuiButton1.BackgroundColor = Color.Black;
         }
+
+        private void xuiCard1_Click(object sender, EventArgs e)
+        {
+            xuiCard1.BackColor = Color.Black;
+        }
     }
 }

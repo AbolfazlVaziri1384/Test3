@@ -33,6 +33,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.xuiButton1 = new XanderUI.XUIButton();
+            this.xuiCard1 = new XanderUI.XUICard();
             this.SuspendLayout();
             // 
             // label1
@@ -57,7 +58,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(326, 278);
+            this.button2.Location = new System.Drawing.Point(458, 260);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(232, 43);
             this.button2.TabIndex = 2;
@@ -86,11 +87,28 @@
             this.xuiButton1.Vertical_Alignment = System.Drawing.StringAlignment.Center;
             this.xuiButton1.Click += new System.EventHandler(this.xuiButton1_Click);
             // 
+            // xuiCard1
+            // 
+            this.xuiCard1.BackColor = System.Drawing.Color.Transparent;
+            this.xuiCard1.Color1 = System.Drawing.Color.DodgerBlue;
+            this.xuiCard1.Color2 = System.Drawing.Color.LimeGreen;
+            this.xuiCard1.ForeColor = System.Drawing.Color.White;
+            this.xuiCard1.Location = new System.Drawing.Point(60, 190);
+            this.xuiCard1.Name = "xuiCard1";
+            this.xuiCard1.Size = new System.Drawing.Size(320, 170);
+            this.xuiCard1.TabIndex = 4;
+            this.xuiCard1.Text = "xuiCard1";
+            this.xuiCard1.Text1 = "Savings Card";
+            this.xuiCard1.Text2 = "1234 5678 9101 1121";
+            this.xuiCard1.Text3 = "Exp: 01/02 - 03/04";
+            this.xuiCard1.Click += new System.EventHandler(this.xuiCard1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.xuiCard1);
             this.Controls.Add(this.xuiButton1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -109,6 +127,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private XanderUI.XUIButton xuiButton1;
+        private XanderUI.XUICard xuiCard1;
     }
 }
 
